@@ -43,7 +43,6 @@ button {
 
 .second-display {
     position: absolute;
-    
     color: yellow;
     font-size: 35px;
     width: 350px;
@@ -51,5 +50,5 @@ button {
     top: 24px;
     left: 25px;
     border-radius: 10px;
-    margin-bottom: - 
+    
 }
