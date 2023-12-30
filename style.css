@@ -1,3 +1,55 @@
 body {
+    background-color: lightgrey;
+}
+
+.calculator-container {
+    height: 500px;
+    width: 400px;
     background-color: grey;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.screen-container {
+    background-color: rgb(53, 53, 242); 
+    height: 50px;
+    width: 380px;
+    margin-left: 10px;
+    color: white;
+    border-radius: 5px;
+}
+.screen {
+    font-size: 35px;
+    text-align: right;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.digits-container {
+    display: flex;
+    width: 380px;
+    height: 430px;
+    flex-direction: column;
+}
+
+
+
+button {
+    height: 60px;
+    width: 60px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.second-display {
+    position: absolute;
+    
+    color: yellow;
+    font-size: 35px;
+    width: 350px;
+    height: 40px;
+    top: 24px;
+    left: 25px;
+    border-radius: 10px;
+    margin-bottom: - 
 }

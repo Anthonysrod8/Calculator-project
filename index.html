@@ -7,6 +7,42 @@
     <title>Calculator</title>
 </head>
 <body>
+    <div class="calculator-container">
+    <div class="screen-container">
+        <div class="screen"></div>
+    </div>
+    <div class="digits-container">
+        <div class="digits-first-row">
+        <button class="button" data-value="1" >1</button>
+        <button class="button" data-value="2" >2</button>
+        <button class="button" data-value="3">3</button>
+    </div>
+    <div class="digits-second-row">
+        <button class="button" data-value="4" >4</button>
+        <button class="button" data-value="5">5</button>
+        <button class="button" data-value="6" >6</button>
+        </div>
+        <div class="digits-third-row">
+        <button class="button" data-value="7" >7</button>
+        <button class="button" data-value="8" >8</button>
+        <button class="button" data-value="9" >9</button>
+        </div>
+        <div class="digits-fourth-row">
+        <button onclick="times()">*</button>
+        <button class="button" data-value="0" >0</button>
+        <button onclick="plus()">+</button>
+        <div class="digits-fifth-row">
+        <button onclick="minus()" >-</button>
+        </div>
+        <button onclick="divide()">/</button>
+        <button onclick="equals()">=</button>
+        </div>
+        <div class="digits-last-row">
+        <button onclick="clean()">C</button>
+        </div> 
+    </div>
+    </div>
+    <div class="second-display"></div>
     <script src="script.js"></script>
 </body>
 </html>
